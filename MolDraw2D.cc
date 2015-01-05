@@ -465,7 +465,7 @@ void MolDraw2D::draw_wedged_bond( const pair<float, float> &cds1 ,
     pair<float,float> e1( end1.first - cds1.first , end1.second - cds1.second );
     pair<float,float> e2( end2.first - cds1.first , end2.second - cds1.second );
     for( int i = 1 ; i < 11 ; ++i ) {
-      if( 5 == i ) {
+      if( 6 == i ) {
         setColour( col2 );
       }
       pair<float,float> e11( cds1.first + float( i ) * 0.1 * e1.first ,
